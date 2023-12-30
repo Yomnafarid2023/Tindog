@@ -1,0 +1,210 @@
+body {
+    font-family:'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1,h2,h3,h4 {
+    font-family: 'Work Sans', sans-serif;
+}
+
+p {
+    font-family:'Montserrat', sans-serif ;
+    font-weight: 800; 
+    color: #8f8f8f;
+}
+
+
+
+/* Headings */
+.big-header {
+    font-size: 3.5rem;
+    line-height: 1.5; 
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/*containers*/
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* sections */
+.colored-section {
+    background-color: #5D3587;
+    color: white;
+}
+
+.white-section {
+    background-color: white;
+}
+
+/* Navigation Bar */
+.navbar {
+    padding-bottom: 5rem;
+    padding-top: 0;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu' , sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    
+}
+
+.nav-item {
+    padding: 0 20px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family:'Montserrat';
+}
+
+/* Title-section */
+#title .container-fluid {
+    text-align: left;
+    padding: 3% 15% 7%;
+}
+
+.title-img {
+    width: 23%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+}
+
+
+/* download Buttons */
+.download-btn {
+    margin: 5% 3% 5% 0;
+}
+
+
+
+/* Features-section */
+#features {
+    position:relative;
+}
+
+.feature-title {
+    font-size: 1.5rem;
+}
+
+.feature-box {
+    padding: 5%;
+}
+
+.icon {
+    color: #A367B1;
+    margin-bottom: 1rem;
+    font-size: 4rem;
+}
+
+.icon:hover {
+    color: #5D3587;
+}
+
+/* Testimonials-section */
+#testimonials {
+    font-weight: 400;
+    background-color: #A367B1;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+
+/* pricing-section */
+#pricing {
+    padding: 100px;
+}
+
+.pricing-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.pricing-col {
+    padding:3% 2%;
+}
+
+
+/* footer-section */
+#footer {
+    padding: 3%;
+}
+.footer-copyright {
+    color:#8f8f8f;
+    margin-bottom: 0;
+}
+.icon2 {
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+    padding: 1%;
+}
+
+/* Media queries */
+@media (max-width:1140px) {
+    #title {
+        text-align: center;
+    }
+    .title-img {
+        position: static;
+        width: 55%;
+        transform: rotate(0);
+    }
+}
+
+/* tindog style */
+
+/* intro section */
+.intro {
+    padding-bottom: 5rem;
+}
+
+p.about-intro {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.5rem;
+    color: aliceblue;
+    line-height: 1.5;
+    padding-bottom: 2rem;
+}
+
+.about-img1 {
+    width: 15%;
+    float: left;
+    padding-right: 25px;
+}
+
+/* examples section */
+#examples {
+    padding-top:4rem;
+}
+
+.carousel-control-next, .carousel-control-prev {
+     filter: invert(100%);         /*to change the color of the carousel buttons to dark */
+}
+
+.carousel-img {
+    width: 100%;
+}
+
+.pet-love {
+    width: 30%;
+    padding-bottom: 1.5rem;
+}
+
+.colored-section-cta {
+    background-color: #A367B1;
+}
